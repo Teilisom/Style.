@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+
+body{
+  min-width:(14px, 1.6em 2vw );
+  height: 100vh;
+  min-width: 480px;
+}
+
+.container {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+
+.bella, .celu, .burti, .simo,  .title  {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+  background: url('/assets/faixa_adesiva_de_parede_azul_cinza_e_branco_quarto_menino_ssfd_020_1513_1_20201207075022.webp');
+}
+
+
+
+ul {
+ list-style: none;
+}
+
+.title a {
+  padding: 1em;
+  
+}
+
+.title img {
+  padding-left: -5em;
+  
+}
+
+.title i {
+  font-size: 1.2em;
+}
+
+
+.title a {
+  padding-left: 2em;
+  color: black;
+  font-weight: 700;
+  padding-bottom: 2em;
+  
+}
+
+
+/* parte de cima do site */ 
+.bis img {
+  margin-top: 1em;
+   width:93%;
+   height: auto;
+   border-radius: 1em;
+   margin-left: 1.5em;
+}
+
+.simo h1 {
+  margin-top: 1em;
+  margin-left: 1.6em;
+  font-size: 1.8em;
+  color: black;
+}
+
+.simo p {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.simo h2 {
+  margin-top: 1em;
+  margin-left: 7.5em;
+}
+
+.simo button {
+  margin-top: 1em;
+  margin-left: 13.5em;
+  padding: 1em;
+  border-radius: 1em;
+  background: blue;
+  color: white;
+  
+}
+
+.simo i {
+  font-size: 1.3em;
+}
+
+.simo button  {
+  margin-bottom: 2em;
+}
+/* parte final do primeiro site */
+.celu img {
+  margin-top: 1em;
+  width: 93%;
+  height: auto;
+  border-radius: 2em;
+  margin-left: 1.5em;
+}
+
+.celu h1 {
+  margin-top: 4em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.celu h2 {
+  margin-left: 4em;
+}
+.celu p {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+}
+ 
+.celu h3 {
+  text-align: center;
+}
+
+.celu button {
+ margin-left: 14em;
+  margin-bottom: 3em;
+}
+
+/* parte final do segundo site */
+
+/* terceira parte do site */
+.burti img  {
+  border-radius: 2em;
+  width: 93%;
+  height: auto;
+  margin-left: 1.5em;
+  }
+
+.burti h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 5em;
+}
+
+.burti h2 {
+  margin-left: 1.5em;
+}
+.burti p {
+  text-align: center;
+}
+
+.burti h3 {
+  margin-top: .5em;
+  text-align: center;
+}
+
+.burti h4 {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.burti button {
+  margin-left: 14em;
+}
+/* parte final do terceiro site */
+
+.bella img {
+  border-radius: 2em;
+  width: 93%;
+  height: auto;
+  margin-left: 1.5em;
+}
+
+.bella h1 {
+  margin-top: 1em;
+  margin-left: 5.2em;
+  margin-bottom: 1em;
+
+}
+
+.bella h2 {
+  margin-left: 5em;
+
+}
+
+.bella button {
+  margin-left: 14.5em;
+}
+
+footer {
+  padding-top: 2em;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+footer a {
+  padding: .5em;
+  font-size: 1.2em;
+}
+
+footer img {
+  padding-left: 10em;
+}
+/* final do site para mobile */ 
+
+/* @media esquari 768 */ 
+ @media(min-width: 767px) {
+   .container {
+     max-width: 922px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .title img {
+     margin-top: 1em;
+   }
+
+   .title  a {
+    padding-left: 7em;
+   }
+
+   .bis img {
+     margin-top: 2em;
+   }
+
+   .simo h1 {
+     margin-left: 6em;
+   }
+    .simo p {
+      margin-left: -1em;
+      font-weight: 700;
+      font-size: 1.3em;
+    }
+
+    .simo h2 {
+      margin-left: 13em;
+    }
+
+    .simo button {
+      margin-left: 19em;
+      font-size: 1em;
+      padding: 1.5em;
+    }
+
+    .celu img {
+      width: 96%;
+      margin-left: 1em;
+    }
+
+    .celu h1 {
+      margin-top: 1em;
+      margin-left: 1em;
+      font-size: 2.5em;
+    }
+
+    .celu h2 {
+      margin-left: 6em;
+      font-size: 2em;
+    }
+
+    .celu p {
+      margin-left: 1em ; 
+    }
+
+    .celu h3 {
+      font-size: 2em;
+    }
+
+    .burti h1 {
+      margin-left: 9em;
+      margin-top: 2em;
+      font-size: 2em;
+    }
+
+    .burti h2 {
+      margin-left: 4em;
+      font-size: 2em;
+    }
+
+    .burti h3 {
+      font-size: 2em;
+      margin-left: -1em;
+    }
+    .burti h4 {
+      font-size: 1.5em;
+      margin-left: -2em;
+      text-decoration: line-through;
+    }
+
+    .burti button {
+      margin-left: 18.5em;
+      padding: 1.5em;
+      margin-bottom: 4em;
+    }
+
+    .bella h1 {
+      margin-left: 9em;
+      margin-top: 3em;
+      font-size: 2em;
+    }
+
+    .bella h2 {
+      margin-left: 7em;
+      font-size: 2em;
+    }
+
+    .bella p {
+      margin-left: 1em;
+    }
+
+    .bella button {
+      margin-left: 20em;
+    }
+
+
+    footer img  {
+     padding-left: 25em;
+    }
+
+    footer a {
+      padding-left: 1em;
+    }
+ }
+/* final do site para 768 */ 
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bis img {
+     margin-left: 28em;
+     width: 60%;
+   }
+
+  .simo h1 {
+    margin-left: 1em;
+    margin-top: -10em;
+    margin-bottom: 1em;
+  } 
+
+  .simo p {
+    margin-left: -32em;
+  }
+
+
+  .simo h2 {
+    margin-left: 7em;
+    text-decoration: underline #000;
+  }
+
+ .simo button {
+   margin-left: 9em;
+ }
+
+  .celu h1 {
+    margin-top: 3em;
+  }
+
+  .celu img {
+    margin-top: 2em;
+    width: 50%;
+   margin-left: .1em;
+  }
+
+  .celu h2 {
+    margin-top: -15em;
+    margin-left: 20em;
+  }
+
+  .celu p {
+    margin-left: 26em;
+  }
+
+  .celu h3 {
+    margin-left: 15em;
+    text-decoration: underline #A1D5F1;
+  }
+
+  .celu button {
+    margin-left: 45em;
+  }
+
+  
+  .burti h1 {
+    margin-top: 7em;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  
+  .burti img {
+    margin-top: 2em;
+    width: 50%;
+    margin-left: 35em;
+  }
+
+  .burti h2 {
+    margin-top: -14em;
+    margin-left: .3em;
+  }
+
+  .burti p {
+    margin-top: 2em;
+    margin-left: -27em;
+  }
+
+  .burti h3 {
+    margin-left: -18em;
+    text-decoration: underline #A1D5F1;
+  }
+
+  .burti h4 {
+    margin-left: -24em;
+  }
+
+  .burti button {
+    margin-left: 12em;
+  }
+
+ .bella h1 {
+  margin-top: 5em;
+  text-align: center;
+ }
+
+  .bella img {
+    margin-top: 2em;
+    width: 50%;
+    margin-left: .1em;
+  }
+
+  .bella h2 {
+    margin-left: 20em;
+    margin-top: -15em;
+
+  }
+
+  .bella p {
+    margin-left: 25em;
+  }
+  
+  .bella button {
+    margin-left: 45em;
+    margin-top: 3em;
+    
+  }
+
+  footer {
+    margin-top: 18em;
+  }
+
+  footer img {
+    padding-left: 48em;
+  }
+}
